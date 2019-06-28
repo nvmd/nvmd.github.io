@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sergey Kazenyuk. System Architect, Software Research Engineer &amp; Consultant</title>
+  <link rel="canonical" href="https://kazenyuk.com/">
+  <meta name="url" content="https://kazenyuk.com/">
+  <meta name="description" content="System Architect, Software Research Engineer &amp; Consultant">
+  <meta name="robots" content="index,follow,noodp">
+  <meta name="googlebot" content="index,follow">
+  <meta property="og:title" content="Sergey Kazenyuk">
+  <meta property="og:site_name" content="Sergey Kazenyuk">
+  <meta property="og:url" content="https://kazenyuk.com/">
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/particles.css">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="particle-canvas">
+      <header class=" top">
+          <br><br><br><br>
+          <h1>Hello,<br>I'm Sergey Kazenyuk</h1>
+          <h2 class="bio">Co-founder &amp; Managing Partner at <a href="https://modus-ponens.com/">ModusPonens</a></h2>
+          <h2 class="bio">Software Research Engineer and System Architect</h2>
+      </header>
+
+      <ul class="services">
+          <li class="service facebook">
+              <a href="https://www.facebook.com/sergey.kazenyuk" class='symbol' title='Facebook' social-tag='circlefacebook' target="_blank">
+          </a>
+          </li>
+
+          <li class="service linkedin">
+              <a href="https://linkedin.com/in/sergeykazenyuk " class='symbol' social-tag='circlelinkedin' target="_blank">
+              </a>
+          </li>
+
+          <li class="service email">
+            <a href="mailto:kazenyuk@gmail.com?subject=From%20kazenyuk.com: " class='symbol' social-tag='circleemail'>
+            </a>
+          </li>
+          
+          <li class="service">
+            <a href="assets/SergeyKazenyukCV.web.pdf" target="_blank">CV</a>
+          </li>
+      </ul>
+  </div>
+  <div class="animation-wrapper">
+    <div class="particle particle-1"></div>
+    <div class="particle particle-2"></div>
+    <div class="particle particle-3"></div>
+    <div class="particle particle-4"></div>
+  </div>
+  <script>
+  $(document).ready(function() {
+      var services = document.getElementsByClassName('service'),
+          len = services.length;
+      while (len--) {
+          var me = services[len];
+          me.addEventListener('mouseover', function(event) {
+              document.body.className = this.className.replace('service ', '');
+          }, false);
+      }
+  });
+  </script>
+
+</body>
+</html>

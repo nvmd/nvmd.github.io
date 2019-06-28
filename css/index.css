@@ -1,0 +1,190 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    -moz-transition: background .5s;
+    -ms-transition: background .5s;
+    -o-transition: background .5s;
+    -webkit-transition: background .5s;
+    background: #34495e;
+    color: #ffff;
+    font: 300 24px/29px sans-serif;
+    margin: 150px 20%;
+    transition: background .5s;
+}
+
+.page-bg,
+.animation-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+}
+
+#particle-canvas {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    font-size: 180%;
+}
+
+h1,
+h2 {
+    font-size: 150%;
+    font-weight: 300;
+    line-height: 110%;
+    margin-bottom: 24px;
+}
+
+h2 {
+    font-size: 120%;
+    opacity: .5
+}
+
+a {
+  color: #ffff;
+  text-decoration: underline;
+}
+
+a:hover {
+    opacity: 1;
+    transition: opacity .5s
+}
+
+.pg-canvas {
+    pointer-events: none
+}
+
+.services {
+    list-style: none;
+    /* padding-top: 60px */
+    padding-top: 24px
+}
+
+.services li {
+    float: left
+}
+
+.services li a {
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+    color: #fff;
+    display: inline-block;
+    opacity: .5;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    text-decoration: none;
+    transition: opacity .5s
+}
+
+.services li a:hover {
+    opacity: 1
+}
+
+body.twitter {
+    background: #2094ca
+}
+
+body.tumblr {
+    background: #6985bc
+}
+
+body.forrst {
+    background: #2f9028
+}
+
+body.dribbble {
+    background: #d5335d
+}
+
+body.github {
+    background: #4a535b
+}
+
+body.email {
+    background: #89aec6
+}
+
+body.aim {
+    background: #e2a522
+}
+
+body.msn {
+    background: #2bb538
+}
+
+body.skype {
+    background: #47aed9
+}
+
+body.deviantart {
+    background: #319753
+}
+
+body.google-plus {
+    background: #c73525
+}
+
+body.reddit {
+    background: #ff4500
+}
+
+body.youtube {
+    background: #c4302b
+}
+
+body.lastfm {
+    background: #d51007
+}
+
+body.facebook {
+    background: #3b5998
+}
+
+body.flickr {
+    background: #ff0084
+}
+
+body.myspace {
+    background: #d2c50a
+}
+
+body.pinterest {
+    background: #ce2020
+}
+
+body.vcard {
+    background: #7059ba
+}
+
+body.adn {
+    background: #777
+}
+
+body.instagram {
+    background: #587bc2
+}
+
+::-moz-selection,
+::-webkit-selection,
+::selection {
+    background: rgba(0, 0, 0, .1)
+}
+
+body.delicious,
+body.linkedin {
+    background: #39c
+}
